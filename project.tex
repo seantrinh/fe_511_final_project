@@ -168,7 +168,7 @@ The following R code was used to load the quarterly data for the S\&P 500 and US
 \vspace{3mm}
 \begin{lstlisting}[language=R]
 library("readxl")
-my_data <- as.data.frame(read_excel("Documents/Classes/FE/fe511/project/fe_511_data.xlsx"))
+my_data <- as.data.frame(read_excel("Documents/Classes/FE/fe511/fe_511_final_project/fe_511_data.xlsx"))
 us_nominal_gdp <- my_data[,"us_nominal_gdp"]
 sp_500 <- my_data[,"sp_500"]
 regression_sp_500 <- lm(us_nominal_gdp ~ sp_500)
@@ -203,7 +203,7 @@ The following R code was used to load the quarterly data for the DJIA and US Nom
 \vspace{3mm}
 \begin{lstlisting}[language=R]
 library("readxl")
-my_data <- as.data.frame(read_excel("Documents/Classes/FE/fe511/project/fe_511_data.xlsx"))
+my_data <- as.data.frame(read_excel("Documents/Classes/FE/fe511/fe_511_final_project/fe_511_data.xlsx"))
 us_nominal_gdp <- my_data[,"us_nominal_gdp"]
 djia <- my_data[,"djia"]
 regression_djia <- lm(us_nominal_gdp ~ djia)
@@ -237,7 +237,7 @@ The following R code was used to load the quarterly data for the S\&P 500, DJIA,
 \vspace{3mm}
 \begin{lstlisting}[language=R]
 library("readxl")
-my_data <- as.data.frame(read_excel("Documents/Classes/FE/fe511/project/fe_511_data.xlsx"))
+my_data <- as.data.frame(read_excel("Documents/Classes/FE/fe511/fe_511_final_project/fe_511_data.xlsx"))
 us_nominal_gdp <- my_data[,"us_nominal_gdp"]
 sp_500 <- my_data[,"sp_500"]
 djia <- my_data[,"djia"]
